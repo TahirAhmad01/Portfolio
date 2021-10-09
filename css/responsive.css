@@ -1,0 +1,178 @@
+@media (min-width: 992px){
+    .menu_icon_pos{
+        display: none;
+    }
+
+    .grid-item{
+        min-height: 400px
+    }
+}
+
+@media (max-width: 991px){
+    header .col-5{
+		position: static;
+	}
+
+    .menu{
+        display: none;
+    }
+
+    .mb_menu{
+        padding: 10px 0;
+    }
+
+    .menu_icon_pos{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+
+    .menu{
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
+		width: 100%;
+		background-color: #fff;
+		z-index: 1;
+        display: none;
+    }
+    
+    .sticky .menu{
+        box-shadow: 0px 5px 6px 1px rgba(0, 0, 0, 0.2)
+    }
+
+	.menu ul{
+		display: block;
+		max-width: 715px;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
+        position: relative;
+        padding-top: 20;
+	}
+	.menu ul li{
+		padding: 0;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .menu ul li a{
+        width: 100%;
+        border-bottom: 1px solid #bdbdbd;
+        display: block;
+        padding: 10px 15px 0
+	}
+
+    .menu ul .m_hi_btn{
+        display: none;
+    }
+
+    .grid-item{
+        min-height: 150px !important
+    }
+}
+
+@media (max-width: 777px){
+    footer .social_ico{
+        justify-content: center;
+    }
+
+    footer h6{
+        text-align: center;
+        margin: 17px 0 0;
+    }
+	.menu ul{
+		max-width: 540px;
+    }
+
+    .title h2, .ab_title h2{
+        font-size: 26px;
+    }
+    .title span, .ab_title span{
+        font-size: 12px;
+    }
+
+    .title{
+        margin-bottom: 33px;
+    }
+
+    .mb_img{
+        display: none;
+    }
+
+    .f_intro{
+        text-align: center;
+    }
+
+    .social_ico{
+        justify-content: center;
+    }
+
+    .c_button{
+        padding: 5px 14px;
+    }
+
+    .textarea{
+        margin-top: 10px;
+        height: 100px;
+    }
+
+    .ab_title{
+        text-align: center;
+    }
+
+    .ab_body{
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+
+    .fi_h_btn{
+        text-align: center;
+    }
+
+    .sn_btn{
+        margin: 0;
+    }
+
+    .work_expe h3{
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .portfolio_btn button{
+        font-size: 13px;
+        padding: 3px 5px;
+        margin: 4px 2px;
+    }
+
+    .w_exp_fi div span{
+        display: block;
+    }
+
+    .fi_h_btn{
+        margin-top: 35px;
+    }
+
+    .prjct_cnt{
+        margin: 15px;
+    }
+
+    .prjct_cnt h2{
+        font-size: 27px
+    }
+
+    .prjct_cnt h6{
+        font-size: 12px
+    }
+    .grid-item{
+        min-height: 380px
+    }
+}
